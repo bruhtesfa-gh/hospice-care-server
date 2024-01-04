@@ -846,8 +846,8 @@ export const sendMail = (name: string, email = "ayalewemneteab@gmail.com", subje
       port: 465,
       secure: true,
       auth: {
-        user: process.env.MAIL || "ayalewemneteab@gmail.com",
-        pass: process.env.MAIL_PASSWORD || "ayalewemneteab@gmail.com",
+        user: process.env.MAIL || "Vermelhospicecare@gmail.com",
+        pass: process.env.MAIL_PASSWORD || "",
       },
     });
 
