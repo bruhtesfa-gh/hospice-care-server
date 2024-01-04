@@ -101,5 +101,5 @@ const keepServerAlive = () => {
 
 app.listen(port, () => {
     console.log(`[server]: Server is running at http://localhost:${port}`);
-    // setInterval(keepServerAlive, interval);
+    setInterval(keepServerAlive, interval);
 });
