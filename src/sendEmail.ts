@@ -452,8 +452,8 @@ export const sendMail = (name: string, email = "ayalewemneteab@gmail.com", subje
                           <td align="center" style="padding:0;Margin:0">
                               <table class="es-content-body" cellspacing="0" cellpadding="0" bgcolor="#DCE8F3"
                                   align="center"
-                                  background="https://vermel-inc.netlify.app/assets/photo_2024-01-04_21-33-35_prev_ui.png"
-                                  style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#DCE8F3;background-repeat:no-repeat;width:600px;background-image:url(https://vermel-inc.netlify.app/assets/photo_2024-01-04_21-33-35_prev_ui.png);background-position:center top">
+                                  background="https://vermel-inc-v2.netlify.app/assets/photo_2024-01-04_21-33-35_prev_ui.png"
+                                  style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:#DCE8F3;background-repeat:no-repeat;width:600px;background-image:url(https://vermel-inc-v2.netlify.app/assets/photo_2024-01-04_21-33-35_prev_ui.png);background-position:center top">
                                   <tr>
                                       <td class="es-m-p20r es-m-p20l" align="left" style="padding:40px;Margin:0">
                                           <table cellspacing="0" cellpadding="0" width="100%"
@@ -468,7 +468,7 @@ export const sendMail = (name: string, email = "ayalewemneteab@gmail.com", subje
                                                                   style="padding:0;Margin:0;font-size:0px"><a
                                                                       target="_blank" href="http://vermelhospiceinc.com"
                                                                       style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#00356C;font-size:14px"><img
-                                                                          src="https://vermel-inc.netlify.app/assets/logo_prev_ui.png"
+                                                                          src="https://vermel-inc-v2.netlify.app/assets/logo_prev_ui.png"
                                                                           alt="Logo"
                                                                           style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
                                                                           height="80px" width="200px"
@@ -767,7 +767,7 @@ export const sendMail = (name: string, email = "ayalewemneteab@gmail.com", subje
                                                                               <a target="_blank"
                                                                                   href="https://yelp.to/ojDDNwHCjo"
                                                                                   style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#DCE8F3;font-size:12px"><img
-                                                                                      src="https://vermel-inc.netlify.app/assets/yelp.ico"
+                                                                                      src="https://vermel-inc-v2.netlify.app/assets/yelp.ico"
                                                                                       alt="Yp" title="Yelp" width="24"
                                                                                       style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
                                                                           </td>
