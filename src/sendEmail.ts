@@ -852,7 +852,7 @@ export const sendMail = (name: string, email = "ayalewemneteab@gmail.com", subje
     });
 
     const mailOptions = {
-      from: 'ayalewemneteab@gmail.com',
+      from: process.env.MAIL,
       to: email,
       subject: subject,
       html: HtmlElement
