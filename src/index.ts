@@ -30,9 +30,10 @@ app.get("/", (req: Request, res: Response) => {
 
 // make appointment route
 app.post("/appointment", (req: Request, res: Response) => {
-    console.log(req.body);
+    // console.log(req.body);
     try {
-        sendMail(req.body.name, req.body.email, 'Schedule Your Appointment');
+        sendMail(req.body.name, req.body.email, 'Confirmation of Your Appointment with Vermel Hospice, Inc');
+        sendMail(req.body.name, process.env.MAIL, 'Confirmation of Your Appointment with Vermel Hospice, Inc');
     } catch (error: any) {
         return res.status(500).send(
             JSON.stringify({
@@ -51,66 +52,8 @@ app.post("/contact-us", (req: Request, res: Response) => {
     console.log(req.body);
     try {
         const { name, email, subject, message } = req.body;
-
-        const html = `<!DOCTYPE html>
-        <html lang="en">
-        <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Contact Form Confirmation</title>
-          <style>
-            body {
-              font-family: Arial, sans-serif;
-              margin: 0;
-              padding: 0;
-              background-color: #f4f4f4;
-            }
-            .container {
-              max-width: 600px;
-              margin: 20px auto;
-              padding: 20px;
-              background-color: #fff;
-              border-radius: 5px;
-              box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            }
-            h2 {
-              color: #333;
-            }
-            p {
-              color: #555;
-            }
-            .button {
-              display: inline-block;
-              padding: 10px 20px;
-              margin-top: 15px;
-              background-color: #007BFF;
-              color: #fff;
-              text-decoration: none;
-              border-radius: 5px;
-            }
-          </style>
-        </head>
-        <body>
-          <div class="container">
-            <h2>Thank You for Contacting Us!</h2>
-            <p>Dear ${name},</p>
-            <p>We have received your message with the following details:</p>
-            <ul>
-              <li><strong>Name:</strong> ${name}</li>
-              <li><strong>Subject:</strong> ${subject}</li>
-              <li><strong>Message:</strong> ${message}</li>
-            </ul>
-            <p>We appreciate your inquiry and will get back to you as soon as possible.</p>
-            <p>Thank you for choosing Vermel Inc!</p>
-            <p>If you have any additional questions or concerns, feel free to reply to this email.</p>
-            <p>Best regards,<br>Lidiya<br>[Your Title/Position]<br>Vermel Inc</p>
-            <a class="button" href="https://vermel-inc.netlify.app/">Visit Our Website</a>
-          </div>
-        </body>
-        </html>
-        `;
-
-        sendMail(name, email, subject, html);
+        sendMail(name, email, 'Confirmation of Your Inquiry with Vermel Hospice, Inc');
+        sendMail(name, process.env.MAIL, 'Confirmation of Your Inquiry with Vermel Hospice, Inc');
 
     } catch (error: any) {
         return res.status(500).send(
@@ -125,6 +68,10 @@ app.post("/contact-us", (req: Request, res: Response) => {
         success: true
     }));
 })
+
+app.get('/users', (req: Request, res: Response) => {
+    res.send('Hello World!');
+});
 
 // Replace 'example.com' with your server's domain or IP address
 const serverUrl = 'http://vermel-server.onrender.com/users';
@@ -152,5 +99,5 @@ const keepServerAlive = () => {
 
 app.listen(port, () => {
     console.log(`[server]: Server is running at http://localhost:${port}`);
-    setInterval(keepServerAlive, interval);
+    // setInterval(keepServerAlive, interval);
 });
