@@ -20,7 +20,9 @@ export const sendMail = (name: string, email = "ayalewemneteab@gmail.com", subje
         #outlook a {
             padding: 0;
         }
-
+        p {
+            font-weight: 600 !important;
+        }
         .es-button {
             mso-style-priority: 100 !important;
             text-decoration: none !important;
@@ -759,7 +761,7 @@ export const sendMail = (name: string, email = "ayalewemneteab@gmail.com", subje
                                                                     style="padding:0;Margin:0;padding-bottom:5px">
                                                                     <p
                                                                         style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:18px;color:#DCE8F3;font-size:12px">
-                                                                        © All Rights Reserved | Vermel, Inc. | 2024
+                                                                        © All Rights Reserved | Vermel Hosipce, Inc.
                                                                     </p>
                                                                 </td>
                                                             </tr>
