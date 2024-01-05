@@ -531,14 +531,7 @@ app.post("/appointment", (req: Request, res: Response) => {
                                                                 style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                                 <tr>
                                                                     <td align="left" style="padding:0;Margin:0">
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
-                                                                            <strong>Dear Vermel Hospice, Inc</strong>
-                                                                        </p>
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
-                                                                            <br>
-                                                                        </p>
+                                                                        
                                                                         <p
                                                                             style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
                                                                             Please reach out to ${name}, they have inquiry or question about Vermel hospice, Inc.
@@ -558,21 +551,7 @@ app.post("/appointment", (req: Request, res: Response) => {
                                                                             <br>
                                                                         </p>
                                                                         
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
-                                                                            Best regards,</p>
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
-                                                                            <br>
-                                                                        </p>
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
-                                                                            <strong></strong>
-                                                                        </p>
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
-                                                                            <strong>Vermel Hosipce, Inc</strong>
-                                                                        </p>
+                                                                        
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -1308,14 +1287,7 @@ app.post("/contact-us", (req: Request, res: Response) => {
                                                                 style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                                 <tr>
                                                                     <td align="left" style="padding:0;Margin:0">
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
-                                                                            <strong>Dear ${name},</strong>
-                                                                        </p>
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
-                                                                            <br>
-                                                                        </p>
+                                                                        
                                                                         <p
                                                                             style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
                                                                             <strong>Name : </strong> ${name}
@@ -1350,21 +1322,7 @@ app.post("/contact-us", (req: Request, res: Response) => {
                                                                             style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
                                                                             <br>
                                                                         </p>
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
-                                                                            Best regards,</p>
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
-                                                                            <br>
-                                                                        </p>
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
-                                                                            <strong></strong>
-                                                                        </p>
-                                                                        <p
-                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'Work Sans', Arial, sans-serif;line-height:21px;color:#00356C;font-size:14px">
-                                                                            <strong>Vermel Hosipce, Inc</strong>
-                                                                        </p>
+                                                                        
                                                                     </td>
                                                                 </tr>
                                                             </table>
