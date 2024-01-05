@@ -18,6 +18,8 @@ app.use(
             "https://vermel-inc.netlify.app",
             "vermel-inc-v2.netlify.app",
             "https://vermel-inc-v2.netlify.app",
+            "vermelhospiceinc.com",
+            "https://vermelhospiceinc.com",
             "http://localhost:3000",
             "http://localhost:5173",
             "127.0.0.1:3000",
